@@ -1,0 +1,11 @@
+'''
+Created on Feb 25, 2020
+
+@author: training_d5.01.02
+'''
+from selenium import webdriver
+driver=webdriver.Chrome("C:\python_selenium_practice\chromedriver.exe")
+driver.get("https://lkmdemoaut.accenture.com/TestMeApp/RegisterUser.htm")
+driver.find_element_by_name("userName").send_keys("selenium")
+driver.find_element_by_name("firstName").send_keys("awesome")
+driver.find_element_by_id("lastName").send_keys("Gupta")

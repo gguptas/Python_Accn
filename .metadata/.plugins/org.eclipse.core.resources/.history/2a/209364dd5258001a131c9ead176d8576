@@ -1,0 +1,14 @@
+'''
+Created on Feb 26, 2020
+
+@author: training_d5.01.02
+'''
+from selenium import webdriver
+import time
+from selenium.webdriver.support.select import Select
+
+driver=webdriver.Chrome("C:\python_selenium_practice\chromedriver.exe")
+driver.get("https://netbanking.hdfcbank.com/netbanking/")
+#driver.find_element_by_name("fldLoginUserId").send_keys("1234567898")
+driver.find_element_by_link_text("Know More").click()
+#driver.find_element_by_class_name("input_password").send_keys("1232123456")

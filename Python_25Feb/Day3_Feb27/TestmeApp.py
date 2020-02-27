@@ -1,0 +1,24 @@
+from selenium import webdriver
+import time
+from selenium.webdriver.support.select import Select
+from selenium.webdriver.common.action_chains import ActionChains
+
+driver=webdriver.Chrome("C:\python_selenium_practice\chromedriver.exe")
+driver.maximize_window()
+driver.implicitly_wait(10)
+driver.get("https://lkmdemoaut.accenture.com/TestMeApp/fetchcat.htm")
+
+window_before1 = driver.window_handles[0]
+
+menu = driver.find_element_by_xpath("/html/body/header/div[2]/div/div/ul/li[3]/a/span")
+user_link = driver.find_element_by_xpath("/html/body/header/div[2]/div/div/ul/li[3]/ul/li/a/span")
+use = driver.find_element_by_xpath("/html/body/header/div[2]/div/div/ul/li[3]/ul/li/ul/li[1]/a/span")
+actions = ActionChains(driver)
+actions.move_to_element(menu).move_to_element(user_link).move_to_element(use).click(use).perform()
+
+window_after = driver.window_handles[1]
+driver.switch_to_window(window_after)
+driver.switch_to_frame("main_page")
+contact = driver.find_element_by_id("demo3").text
+print(contact)
+driver.quit()

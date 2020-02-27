@@ -1,0 +1,46 @@
+-- VERSION_5
+-- START DISKCACHE_2
+C:\python_selenium_practice\.metadata\.plugins\org.eclipse.core.resources\.projects\Python_25Feb\com.python.pydev.analysis\v2_indexcache
+Day1_Feb25.testmeapp_signin|1582689359287346000|C:\python_selenium_practice\Python_25Feb\Day1_Feb25\testmeapp_signin.py
+Day1_Feb25.testmeapp2_signin|1582628125525414000|C:\python_selenium_practice\Python_25Feb\Day1_Feb25\testmeapp2_signin.py
+Day2_Feb26.__init__|1582690710281255000|C:\python_selenium_practice\Python_25Feb\Day2_Feb26\__init__.py
+Day2_Feb26.chercher|1582700120881606000|C:\python_selenium_practice\Python_25Feb\Day2_Feb26\chercher.py
+Day2_Feb26.3Frames|1582695772908657000|C:\python_selenium_practice\Python_25Feb\Day2_Feb26\3Frames.py
+Day1_Feb25.Day1_Demo1|1582617259864466000|C:\python_selenium_practice\Python_25Feb\Day1_Feb25\Day1_Demo1.py
+Day1_Feb25.__init__|1582609705618109000|C:\python_selenium_practice\Python_25Feb\Day1_Feb25\__init__.py
+Day2_Feb26.Day2_HDFC|1582693967953778000|C:\python_selenium_practice\Python_25Feb\Day2_Feb26\Day2_HDFC.py
+Day2_Feb26.Drag_Drop|1582698728515756000|C:\python_selenium_practice\Python_25Feb\Day2_Feb26\Drag_Drop.py
+-- END DISKCACHE
+-- START DICTIONARY
+14
+10=Day1_Feb25.testmeapp_signin
+7=C:\python_selenium_practice\Python_25Feb\Day2_Feb26\3Frames.py
+14=Day1_Feb25.testmeapp2_signin
+4=Day2_Feb26.chercher
+5=C:\python_selenium_practice\Python_25Feb\Day1_Feb25\Day1_Demo1.py
+6=Day1_Feb25.Day1_Demo1
+9=C:\python_selenium_practice\Python_25Feb\Day1_Feb25\testmeapp_signin.py
+12=Day2_Feb26.Day2_HDFC
+2=Day2_Feb26.Drag_Drop
+1=C:\python_selenium_practice\Python_25Feb\Day2_Feb26\Drag_Drop.py
+8=Day2_Feb26.3Frames
+13=C:\python_selenium_practice\Python_25Feb\Day1_Feb25\testmeapp2_signin.py
+11=C:\python_selenium_practice\Python_25Feb\Day2_Feb26\Day2_HDFC.py
+3=C:\python_selenium_practice\Python_25Feb\Day2_Feb26\chercher.py
+-- END DICTIONARY
+-- START TREE 1
+10
+act|3|actions!1^14#1*19@actions1!3^17#1*35@actions!3^14#1*35@
+ale|1|alert!3^20#1*35@
+dou|1|double_click99!3^18#1*35@
+dri|7|driver!3^6#1*35@driver!5^6#1*51@driver!1^6#1*19@driver!7^5#1*67@driver!9^10#1*83@driver!11^10#1*99@driver!13^10#1*115@
+goo|1|google_link!3^12#1*35@
+men|1|menu!3^11#1*35@
+sel|2|select!9^22#1*83@select!13^25#1*115@
+sor|1|sorc!1^11#1*19@
+str|1|str1!3^21#1*35@
+tgt|1|tgt!1^12#1*19@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

@@ -1,0 +1,6 @@
+from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
+
+print("Hello Python")
+driver=webdriver.Chrome("C:\Users\training_d5.01.02\Desktop\Training\chromedriver.exe")
+driver.get("https://www.google.com/")
